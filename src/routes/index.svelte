@@ -1,0 +1,325 @@
+<script>
+    const PAGE_TITLE = `Balance`;
+    const CANONICAL_URL = `https://balance.io`;
+</script>
+
+<svelte:head>
+    <title>{PAGE_TITLE}</title>
+    <meta property="og:title" content={PAGE_TITLE}>
+    <meta name="twitter:title" content={PAGE_TITLE}>
+    <link rel="canonical" href={CANONICAL_URL}>
+    <meta property="og:url" content={CANONICAL_URL}>
+    <meta name="twitter:url" content={CANONICAL_URL}>
+</svelte:head>
+
+<section class="hero">
+    <div class="hero__left">
+        <img class="hero__image" src="/img/phone.png" />
+    </div>
+    <div class="hero__right">
+        <h1 class="hero__title">Stop <span class="bold">Trading</span> Start <span class="bold">Using</span></h1>
+        <div class="hero__grid">
+            <div class="hero__row">
+                <button class="hero__link">
+                    <img src="/icons/verbs/vote.svg" /><span>Vote</span>
+                </button>
+                <button class="hero__link hero__link--orange">
+                    <img src="/icons/verbs/mint.svg" /><span>Mint</span>
+                </button>
+                <button class="hero__link hero__link--sky">
+                    <img src="/icons/verbs/chat.svg" /><span>Chat</span>
+                </button>
+            </div>
+            <div class="hero__row">
+                <button class="hero__link hero__link--yellow">
+                    <img src="/icons/verbs/earn.svg" /><span>Earn</span>
+                </button>
+                <button class="hero__link hero__link--indigo">
+                    <img src="/icons/verbs/find.svg" /><span>Find</span>
+                </button>
+                <button class="hero__link hero__link--red">
+                    <img src="/icons/verbs/fund.svg" /><span>Fund</span>
+                </button>
+            </div>
+            <div class="hero__row">
+                <button class="hero__link hero__link--fuchsia">
+                    <img src="/icons/verbs/play.svg" /><span>Play</span>
+                </button>
+                <button class="hero__link hero__link--aqua">
+                    <img src="/icons/verbs/post.svg" /><span>Post</span>
+                </button>
+                <button class="hero__link hero__link--purple">
+                    <img src="/icons/verbs/list.svg" /><span>List</span>
+                </button>
+            </div>
+            <div class="hero__row">
+                <button class="hero__link hero__link--blue">
+                    <img src="/icons/verbs/send.svg" /><span>Send</span>
+                </button>
+                <button class="hero__link hero__link--gray">
+                    <img src="/icons/verbs/sign.svg" /><span>Sign</span>
+                </button>
+                <button class="hero__link hero__link--pink">
+                    <img src="/icons/verbs/join.svg" /><span>Join</span>
+                </button>
+            </div>
+        </div>
+        <div class="wrapper">
+            <a class="btn btn--testflight" href="https://testflight.apple.com/join/2KmYYftO" rel="external noopener" target="_blank">
+                <img src="/icons/socials/balance-testflight.svg" /><span>Join TestFlight</span>
+            </a>
+        </div>
+    </div>
+</section>
+<section class="features">
+    <div class="features__row">
+        <div class="feature">
+            <img class="feature__icon" src="/icons/features/swift.svg" />
+            <h2 class="feature__title">Native to Apple platforms</h2>
+            <p class="feature__text">Balance is built with Swift, UIKit & Swift UI to make the most of incredible developer APIs Apple provides</p>
+        </div>
+        <div class="feature">
+            <img class="feature__icon" src="/icons/features/puzzle.svg" />
+            <h2 class="feature__title">Safari Extension Integration</h2>
+            <p class="feature__text">Our wallet is woven deeply into the Safari browser so dapp developers can finally start shipping for the mobile web</p>
+        </div>
+        <div class="feature">
+            <img class="feature__icon" src="/icons/features/world.svg" />
+            <h2 class="feature__title">Truly Open Source Code</h2>
+            <p class="feature__text">We believe the people who use open source protocols deserve interfaces that respect the community’s values</p>
+        </div>
+    </div>
+    <div class="features__row">
+        <div class="feature">
+            <img class="feature__icon" src="/icons/features/community.svg" />
+            <h2 class="feature__title">Community Funded</h2>
+            <p class="feature__text">We raised a totally open crowdfunding campaign in 2017 and have a new one in 2022 for everyone to be involved</p>
+        </div>
+        <div class="feature">
+            <img class="feature__icon" src="/icons/features/stack.svg" />
+            <h2 class="feature__title">Focused on the EVM</h2>
+            <p class="feature__text">We are building on top of the stack that supports the Ethereum Virtual Machine so we can support many protocols</p>
+        </div>
+        <div class="feature">
+            <img class="feature__icon" src="/icons/features/lock.svg" />
+            <h2 class="feature__title">Security Community Support</h2>
+            <p class="feature__text">Our code will be reviewed regularly by the most reputable auditors in Ethereum & open for any security researchers</p>
+        </div>
+    </div>
+</section>
+<section class="community">
+    <a class="btn btn--twitter" href="https://twitter.com/Balance_io" rel="external noopener" target="_blank">
+        <img src="/icons/socials/twitter.svg" /><span>Follow on Twitter</span>
+    </a>
+    <a class="btn btn--discord" href="https://discord.gg/sZtdVDrVGH" rel="external noopener" target="_blank">
+        <img src="/icons/socials/discord.svg" /><span>Join our Discord</span>
+    </a>
+    <a class="btn btn--github" href="https://github.com/balance-io" rel="external noopener" target="_blank">
+        <img src="/icons/socials/github.svg" /><span>Watch on GitHub</span>
+    </a>
+</section>
+
+<style>
+    .hero {
+        display: block;
+        margin-bottom: 43px;
+        margin-top: 30px;
+        width: 100%;
+        .hero__left {
+            text-align: center;
+            .hero__image {
+                max-width: 250px;
+            }
+        }
+        .hero__right {
+            display: flex;
+            flex-direction: column;
+            padding: 0 24px;
+            .hero__title {
+                font-weight: 400;
+                font-size: 43px;
+                margin-top: 0;
+                text-align: center;
+                .bold {
+                    font-size: 46px;
+                    font-weight: 700;
+                }
+            }
+            .hero__grid {
+                display: flex;
+                flex-direction: column;
+                row-gap: 16px;
+                .hero__row {
+                    align-items: center;
+                    column-gap: 16px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    &:first-child {
+                        .hero__link > img {
+                            height: 22px;
+                        }
+                    }
+                    &:last-child {
+                        margin-bottom: 43px;
+                    }
+                    .hero__link {
+                        align-items: center;
+                        background-color: #dcf2df;
+                        border: 0;
+                        border-radius: 8px;
+                        color: #1daa10;
+                        column-gap: 10px;
+                        cursor: pointer;
+                        display: flex;
+                        font-size: 22px;
+                        font-weight: 500;
+                        height: 55px;
+                        justify-content: center;
+                        text-decoration: none;
+                        transition: .15s opacity ease;
+                        width: 120px;
+                        will-change: opacity;
+                        > img {
+                            height: 20px;
+                        }
+                        &:hover {
+                            opacity: .8;
+                        }
+                        &.hero__link--orange {
+                            background-color: #fcebde;
+                            color: #ff6f00;
+                        }
+                        &.hero__link--sky {
+                            background-color: #dcf2fb;
+                            color: #00b1ff;
+                        }
+                        &.hero__link--yellow {
+                            background-color: #fcf3de;
+                            color: #ffbd00;
+                        }
+                        &.hero__link--indigo {
+                            background-color: #dee7f0;
+                            color: #004d9b;
+                        }
+                        &.hero__link--red {
+                            background-color: #f9dfe0;
+                            color: #e80000;
+                        }
+                        &.hero__link--fuchsia {
+                            background-color: #ffdff5;
+                            color: #ff00cf;
+                        }
+                        &.hero__link--aqua {
+                            background-color: #dcf0eb;
+                            color: #00996c;
+                        }
+                        &.hero__link--purple {
+                            background-color: #f7dff8;
+                            color: #cf00e8;
+                        }
+                        &.hero__link--blue {
+                            background-color: #dfebfa;
+                            color: #0074ff;
+                        }
+                        &.hero__link--gray {
+                            background-color: #e6e6e6;
+                            color: #404040;
+                        }
+                        &.hero__link--pink {
+                            background-color: #fee4e9;
+                            color: #ff0057;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .hero {
+            column-gap: 64px;
+            display: flex;
+            justify-content: center;
+            margin-top: 0;
+            .hero__right .hero__grid .hero__row .hero__link {
+                column-gap: 12px;
+                font-size: 28px;
+                height: 62px;
+                width: 138px;
+            }
+            .hero__image {
+                max-width: 400px !important;
+            }
+            .hero__title {
+                margin-top: 1em !important;
+            }
+        }
+    }
+    .wrapper {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .features {
+        background-color: #fff;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        margin: 0 24px;
+        padding: 30px 40px;
+        .features__row {
+            column-gap: 40px;
+            display: flex;
+            flex-direction: column;
+            .feature {
+                margin-bottom: 12px;
+                .feature__icon {
+                    height: 26px;
+                    width: 26px;
+                }
+                .feature__title {
+                    color: #131415;
+                    font-size: 21px;
+                    margin-top: 8px;
+                }
+                .feature__text {
+                    color: #131415;
+                    font-size: 17px;
+                }
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .features {
+            margin: 0;
+            .features__row {
+                flex-direction: row;
+                &:last-child {
+                    margin-top: 12px;
+                }
+                .feature {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    .community {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        row-gap: 16px;
+        .btn {
+            max-width: 200px;
+            width: 100%;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .community {
+            column-gap: 27px;
+            flex-direction: row;
+            justify-content: center;
+            margin: 57px 0;
+        }
+    }
+</style>

@@ -1,0 +1,86 @@
+@charset 'UTF-8';
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #15242e;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.btn {
+    -webkit-user-select: none;
+    align-items: center;
+    background-image: linear-gradient(#2cb6f2, #1762E1);
+    border: 1px solid #5b92eb;
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    column-gap: 12px;
+    cursor: pointer;
+    direction: ltr;
+    display: flex;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    line-height: 1.5;
+    justify-content: center;
+    min-width: 30px;
+    overflow: visible;
+    padding: 6px 15px;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: .15s opacity ease;
+    user-select: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+    will-change: opacity;
+    img {
+        height: 22px;
+        width: 22px;
+    }
+    &:hover {
+        opacity: .8;
+    }
+    &:active {
+        background-image: linear-gradient(#3D94D9, #0067B9);
+        border-color: #006DBC;
+        outline: none;
+    }
+    &:focus {
+        box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
+        outline: none;
+    }
+    &.btn--testflight {
+        font-size: 26px;
+        height: 110%;
+        letter-spacing: .008em;
+        width: 240px;
+        img {
+            height: 34px;
+            width: 34px;
+        }
+    }
+    &.btn--twitter, &.btn--discord, &.btn--github, &.btn--apply {
+        font-size: 18px;
+        height: 45px;
+    }
+    &.btn--twitter {
+        background-image: linear-gradient(#2cb6f2, #1474b5);
+    }
+    &.btn--discord {
+        background-image: linear-gradient(#5865f2, #3c49cf);
+        border-color: #505ce9;
+    }
+    &.btn--github {
+        background-image: linear-gradient(#24292e, #0e0f10);
+        border-color: #414141;
+    }
+    &.btn--apply {
+        background-image: linear-gradient(#49850c, #2d630b);
+        border-color: #233915;
+    }
+}

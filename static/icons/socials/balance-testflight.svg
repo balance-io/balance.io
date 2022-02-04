@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>balance-testflight</title>
+    <defs>
+        <linearGradient x1="0%" y1="28.2443927%" x2="100%" y2="71.7556073%" id="linearGradient-1">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="41.4634981%" y1="0%" x2="58.5365019%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="12.2751204%" x2="100%" y2="87.7248796%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="16.8739806%" x2="50%" y2="80.1058159%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="50%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M48.7821487,5.72492608 L49.1427842,5.72492608 L49.1427842,68.6591048 L48.7821487,68.6591048 L48.7821487,5.72492608 Z M53.9512575,5.72492608 L54.311893,5.72492608 L54.311893,68.6591048 L53.9512575,68.6591048 L53.9512575,5.72492608 Z" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5.52974424" height="62.9341787" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <linearGradient x1="50%" y1="35.4519983%" x2="50%" y2="80.1058159%" id="linearGradient-7">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="50%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="19.3810045%" x2="50%" y2="70.1413588%" id="linearGradient-8">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="50%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M31.3848002,13.9801515 L31.7454357,13.9801515 L31.7454357,89.574917 L31.3848002,89.574917 L31.3848002,13.9801515 Z M36.487175,13.9407552 L36.8478105,13.9407552 L36.8478105,89.5355207 L36.487175,89.5355207 L36.487175,13.9407552 Z" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="5.46301029" height="75.6341618" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-219.000000, -303.000000)">
+            <g id="Group-Copy-2" transform="translate(207.000000, 291.000000)">
+                <path d="M20.9617068,41.4138027 L36.2561563,50.2331503 C36.5983587,50.4353539 36.9802117,50.5362878 37.3621164,50.5362878 C37.7439139,50.5362878 38.1258902,50.4354074 38.4686555,50.2331328 L38.4686555,50.2331328 L42.3652764,47.9301811 C42.4248127,47.8949901 42.4878157,47.8780304 42.5495134,47.8780119 C42.6158465,47.877992 42.6801195,47.8970081 42.7362215,47.9301085 C42.8492711,47.9968081 42.9280484,48.1214766 42.9280484,48.2732259 L42.9280484,48.2732259 L42.9280484,52.1255469 C42.9280484,52.8156738 42.5694203,53.4545715 41.9845761,53.8000613 L41.9845761,53.8000613 L39.9174619,55.0213502 C39.1268991,55.4887987 38.2444908,55.7226871 37.3620248,55.7226871 C36.4795588,55.7226871 35.5971504,55.4887987 34.8064994,55.021298 L34.8064994,55.021298 L23.3321544,48.2409167 C21.7455859,47.3030811 20.7700346,45.569156 20.7700346,43.6942399 L20.7700346,43.6942399 L20.7700346,41.7569911 C20.7700346,41.6052352 20.8486607,41.4805004 20.9617068,41.4138027 L20.9617068,41.4138027 Z" id="Path" stroke="#FFFFFF" stroke-width="0.749736" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                <path d="M48.387625,24.1093271 C48.7115853,24.1093271 49.0354919,24.1952288 49.3256816,24.3667553 L49.3256816,24.3667553 L51.3911729,25.5872019 C52.9777376,26.5249652 53.9532822,28.2589575 53.9532822,30.1337975 L53.9532822,30.1337975 L53.9532822,43.6952888 C53.9532822,45.5701288 52.9777376,47.3041211 51.3912081,48.2418636 L51.3912081,48.2418636 L49.8640527,49.1442875 C49.4915843,49.0957351 49.1900349,49.0510454 49.1900349,48.8670548 L49.1900349,48.8670548 L49.1900349,31.2276534 C49.1900349,30.4242741 48.7697704,29.6833232 48.0907157,29.2818977 L48.0907157,29.2818977 L44.1918394,26.9778633 L47.4496184,24.3667257 C47.739758,24.1952288 48.0636646,24.1093271 48.387625,24.1093271 Z" id="Path" stroke="#FFFFFF" stroke-width="0.749736" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                <path d="M37.3620248,18.1048071 C38.2445085,18.1048071 39.1269355,18.3386104 39.9175863,18.8059366 L39.9175863,18.8059366 L41.5579699,19.775019 L26.6325521,29.2813273 C25.9535517,29.6827207 25.5332819,30.4236629 25.5332819,31.227129 L25.5332819,31.227129 L25.5332819,35.8340607 L21.6995669,34.2440779 C21.1225734,33.8966896 20.7700346,33.2621413 20.7700346,32.5774417 L20.7700346,32.5774417 L20.7700346,30.1331981 C20.7700346,28.258353 21.7455876,26.5244308 23.3321146,25.5866198 L23.3321146,25.5866198 L34.8065349,18.8058943 C35.597114,18.3386104 36.4795411,18.1048071 37.3620248,18.1048071 Z" id="Path" stroke="#FFFFFF" stroke-width="0.749736" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                <use id="Combined-Shape" stroke="url(#linearGradient-4)" mask="url(#mask-6)" stroke-width="1.499472" stroke-linejoin="round" stroke-dasharray="0.2421552658081055,0.7264658689498901" xlink:href="#path-5"></use>
+                <path d="" id="Combined-Shape-Copy" stroke="url(#linearGradient-7)" stroke-width="0.749736" transform="translate(35.438635, 21.274093) rotate(-300.000000) translate(-35.438635, -21.274093) "></path>
+                <use id="Combined-Shape-Copy-2" stroke="url(#linearGradient-8)" mask="url(#mask-10)" stroke-width="1.499472" stroke-linejoin="round" stroke-dasharray="0.7264658689498901,1.089698696136475" transform="translate(34.116305, 51.757836) rotate(-60.000000) translate(-34.116305, -51.757836) " xlink:href="#path-9"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,102 @@
+<footer class="footer">
+    <div class="footer__left">
+        <img class="footer__logo mb" src="/img/logo-white.png" />
+        <p class="footer__text footer__text--highlight">Balanced Software, Inc.</p>
+        <p class="footer__text mb">San Francisco, California</p>
+        <h2 class="footer__title">Want to visit us?</h2>
+        <p class="footer__text mb">We love having guests from the Ethereum community in our Presidio studio</p>
+        <button class="btn btn--apply mb">
+           <img src="/icons/socials/pin.svg" /><span>Apply to visit us</span>
+        </button>
+    </div>
+    <div class="footer__center">
+        <h2 class="footer__title">Contact</h2>
+        <p class="footer__text">
+            <a class="footer__link" href="mailto:hello@balance.io">hello@balance.io</a>
+        </p>
+        <p class="footer__text">
+            <a class="footer__link" href="#">Intercom Chat (SMS)</a>
+        </p>
+        <p class="footer__text mb">
+            <a class="footer__link" href="#">Request a Call Back</a>
+        </p>
+        <h2 class="footer__title">Media</h2>
+        <p class="footer__text">
+            <a class="footer__link" href="#">Blog</a>
+        </p>
+        <p class="footer__text">
+            <a class="footer__link" href="#">Brand Kit</a>
+        </p>
+        <p class="footer__text">
+            <a class="footer__link" href="#">Press Contact</a>
+        </p>
+        <p class="footer__text mb">
+            <a class="footer__link" href="#">Translation Progress</a>
+        </p>
+        <h2 class="footer__title">Operations</h2>
+        <p class="footer__text">
+            <a class="footer__link" href="#">Investor Relations</a>
+        </p>
+        <p class="footer__text mb">
+            <a class="footer__link" href="#">Security Disclosures</a>
+        </p>
+    </div>
+    <div class="footer__right">
+        <img class="footer__map" src="/img/balance-map.png" />
+    </div>
+</footer>
+
+<style>
+    .footer {
+        font-weight: 300;
+        display: block;
+        padding: 30px 24px 40px;
+        .footer__left, .footer__center {
+            max-width: 200px;
+        }
+        .footer__logo {
+            max-width: 144px;
+            width: 100%;
+        }
+        .footer__text {
+            color: #bfbfbf;
+            font-size: 14px;
+            margin: 0;
+            &.footer__text--highlight {
+                color: #f9f9f9;
+                font-size: 16px;
+            }
+            .footer__link {
+                color: #bfbfbf;
+                text-decoration: none;
+                transition: .1s opacity ease;
+                will-change: opacity;
+                &:hover {
+                    opacity: .8;
+                    text-decoration: underline;
+                }
+            }
+        }
+        .footer__title {
+            color: #fff;
+            font-size: 19px;
+            font-weight: 300;
+            margin: 0 0 4px 0;
+        }
+        .footer__map {
+            max-width: 600px;
+            width: 100%;
+        }
+        .mb {
+            margin-bottom: 16px;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .footer {
+            column-gap: 32px;
+            display: flex;
+            justify-content: space-between;
+            padding: 60px 0 80px;
+        }
+    }
+</style>
