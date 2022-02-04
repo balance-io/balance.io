@@ -2,6 +2,8 @@
 
 WIP [balance.io](https://balance.io) landing page
 
+This repository is synced with https://website-balance1.vercel.app/ via Vercel.
+
 ## Install
 
 ```sh
