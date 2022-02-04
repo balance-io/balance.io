@@ -73,17 +73,21 @@
             }
         }
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 970px) {
         .nav {
             display: flex;
             flex-direction: row;
-            padding: 50px 0;
             .nav__left {
                 margin-bottom: 12px;
             }
             .nav__right {
                 flex-direction: row;
             }
+        }
+    }
+    @media screen and (min-width: 1148px) {
+        .nav {
+            padding: 50px 24px;
         }
     }
 </style>

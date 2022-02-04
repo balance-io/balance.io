@@ -169,22 +169,17 @@
                         border: 0;
                         border-radius: 8px;
                         color: #1daa10;
-                        column-gap: 10px;
-                        cursor: pointer;
+                        column-gap: 6px;
                         display: flex;
-                        font-size: 22px;
+                        font-size: 17px;
                         font-weight: 500;
-                        height: 55px;
+                        height: 45px;
                         justify-content: center;
                         text-decoration: none;
-                        transition: .15s opacity ease;
-                        width: 120px;
-                        will-change: opacity;
+                        width: 90px;
                         > img {
                             height: 20px;
-                        }
-                        &:hover {
-                            opacity: .8;
+                            width: 20px;
                         }
                         &.hero__link--orange {
                             background-color: #fcebde;
@@ -235,7 +230,7 @@
             }
         }
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 970px) {
         .hero {
             column-gap: 64px;
             display: flex;
@@ -289,7 +284,7 @@
             }
         }
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 970px) {
         .features {
             margin: 0;
             .features__row {
@@ -314,7 +309,7 @@
             width: 100%;
         }
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 970px) {
         .community {
             column-gap: 27px;
             flex-direction: row;

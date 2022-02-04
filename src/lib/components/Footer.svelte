@@ -91,7 +91,7 @@
             margin-bottom: 16px;
         }
     }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 970px) {
         .footer {
             column-gap: 32px;
             display: flex;
