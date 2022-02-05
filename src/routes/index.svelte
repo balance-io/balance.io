@@ -56,7 +56,7 @@
                 </a>
             </div>
             <div class="hero__row">
-                <a href="https://gitcoin.io"
+                <a href="https://gitcoin.co"
                    target="_blank"
                    style="text-decoration: none;">
                     <Button
