@@ -33,6 +33,7 @@
         justify-content: center;
         text-decoration: none;
         width: 90px;
+        cursor: grab;
 
         > img {
             height: 20px;

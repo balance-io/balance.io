@@ -106,8 +106,15 @@
             </div>
         </div>
         <div class="wrapper">
-            <a class="btn btn--testflight" href="https://testflight.apple.com/join/2KmYYftO" rel="external noopener" target="_blank">
-                <img src="/icons/socials/balance-testflight.svg" /><span>Join TestFlight</span>
+            <a
+                class="btn btn--testflight"
+                href="https://testflight.apple.com/join/2KmYYftO"
+                rel="external noopener"
+                target="_blank"
+            >
+                <img src="/icons/socials/balance-testflight.svg" /><span
+                    >Join TestFlight</span
+                >
             </a>
         </div>
     </div>
