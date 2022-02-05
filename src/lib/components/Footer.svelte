@@ -10,9 +10,13 @@
             We love having guests from the Ethereum community in our Presidio
             studio
         </p>
-        <button class="btn btn--apply mb">
-            <img src="/icons/socials/pin.svg" /><span>Apply to visit us</span>
-        </button>
+        <a href="https://app.uniswap.org/#/swap?exactField=output&exactAmount=1&inputCurrency=ETH&outputCurrency=0xd3ba270f82CadabD0596D3D30233448621d561BB"
+           target="_blank"
+           style="text-decoration: none;">
+            <button class="btn btn--apply mb">
+                <img src="/icons/socials/pin.svg" /><span>Buy 1 $BAE to visit</span>
+            </button>
+        </a>
     </div>
     <div class="footer__center">
         <h2 class="footer__title">Contact</h2>
