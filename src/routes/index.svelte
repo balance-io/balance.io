@@ -1,15 +1,16 @@
 <script>
     const PAGE_TITLE = `Balance`;
     const CANONICAL_URL = `https://balance.io`;
+    import Button from "../../src/lib/components/Button.svelte";
 </script>
 
 <svelte:head>
     <title>{PAGE_TITLE}</title>
-    <meta property="og:title" content={PAGE_TITLE}>
-    <meta name="twitter:title" content={PAGE_TITLE}>
-    <link rel="canonical" href={CANONICAL_URL}>
-    <meta property="og:url" content={CANONICAL_URL}>
-    <meta name="twitter:url" content={CANONICAL_URL}>
+    <meta property="og:title" content={PAGE_TITLE} />
+    <meta name="twitter:title" content={PAGE_TITLE} />
+    <link rel="canonical" href={CANONICAL_URL} />
+    <meta property="og:url" content={CANONICAL_URL} />
+    <meta name="twitter:url" content={CANONICAL_URL} />
 </svelte:head>
 
 <section class="hero">
@@ -17,58 +18,115 @@
         <img class="hero__image" src="/img/phone.png" />
     </div>
     <div class="hero__right">
-        <h1 class="hero__title">Stop <span class="bold">Trading</span> Start <span class="bold">Using</span></h1>
+        <h1 class="hero__title">
+            Stop <span class="bold">Trading</span> Start
+            <span class="bold">Using</span>
+        </h1>
         <div class="hero__grid">
             <div class="hero__row">
-                <button class="hero__link">
-                    <img src="/icons/verbs/vote.svg" /><span>Vote</span>
-                </button>
-                <button class="hero__link hero__link--orange">
-                    <img src="/icons/verbs/mint.svg" /><span>Mint</span>
-                </button>
-                <button class="hero__link hero__link--sky">
-                    <img src="/icons/verbs/chat.svg" /><span>Chat</span>
-                </button>
+                <Button
+                    image="/icons/verbs/vote.svg"
+                    text="Vote"
+                    color="green"
+                    id={0}
+                />
+                <Button
+                    image="/icons/verbs/mint.svg"
+                    text="Mint"
+                    color="orange"
+                    id={1}
+                />
+                <Button
+                    image="/icons/verbs/chat.svg"
+                    text="Chat"
+                    color="sky"
+                    id={2}
+                />
+            </div>
+
+            <div class="hero__row">
+                <Button
+                    image="/icons/verbs/earn.svg"
+                    text="Earn"
+                    color="yellow"
+                    id={3}
+                />
+                <Button
+                    image="/icons/verbs/find.svg"
+                    text="Find"
+                    color="indigo"
+                    id={4}
+                />
+                <Button
+                    image="/icons/verbs/fund.svg"
+                    text="Fund"
+                    color="red"
+                    id={5}
+                />
             </div>
             <div class="hero__row">
-                <button class="hero__link hero__link--yellow">
-                    <img src="/icons/verbs/earn.svg" /><span>Earn</span>
-                </button>
-                <button class="hero__link hero__link--indigo">
-                    <img src="/icons/verbs/find.svg" /><span>Find</span>
-                </button>
-                <button class="hero__link hero__link--red">
-                    <img src="/icons/verbs/fund.svg" /><span>Fund</span>
-                </button>
+                <Button
+                    image="/icons/verbs/play.svg"
+                    text="Play"
+                    color="fuchsia"
+                    id={6}
+                />
+                <Button
+                    image="/icons/verbs/post.svg"
+                    text="Post"
+                    color="aqua"
+                    id={7}
+                />
+                <Button
+                    image="/icons/verbs/list.svg"
+                    text="List"
+                    color="purple"
+                    id={8}
+                />
             </div>
             <div class="hero__row">
-                <button class="hero__link hero__link--fuchsia">
-                    <img src="/icons/verbs/play.svg" /><span>Play</span>
-                </button>
-                <button class="hero__link hero__link--aqua">
-                    <img src="/icons/verbs/post.svg" /><span>Post</span>
-                </button>
-                <button class="hero__link hero__link--purple">
-                    <img src="/icons/verbs/list.svg" /><span>List</span>
-                </button>
-            </div>
-            <div class="hero__row">
-                <button class="hero__link hero__link--blue">
-                    <img src="/icons/verbs/send.svg" /><span>Send</span>
-                </button>
-                <button class="hero__link hero__link--gray">
-                    <img src="/icons/verbs/sign.svg" /><span>Sign</span>
-                </button>
-                <button class="hero__link hero__link--pink">
-                    <img src="/icons/verbs/join.svg" /><span>Join</span>
-                </button>
+                <Button
+                    image="/icons/verbs/send.svg"
+                    text="Send"
+                    color="blue"
+                    id={9}
+                />
+                <Button
+                    image="/icons/verbs/sign.svg"
+                    text="Sign"
+                    color="gray"
+                    id={10}
+                />
+                <Button
+                    image="/icons/verbs/join.svg"
+                    text="Join"
+                    color="pink"
+                    id={11}
+                />
             </div>
         </div>
-        <div class="flex gap-2 justify-center align-center pt-10 drop-shadow-[0_25px_25px_rgba(20,164,245,0.25)] mb-10">
+        <div
+            class="flex gap-2 justify-center align-center pt-10 drop-shadow-[0_25px_25px_rgba(20,164,245,0.25)] mb-10"
+        >
             <a href="https://testflight.apple.com/join/2KmYYftO">
-                <div class="flex bg-gradient-to-r from-[#5ACDFF] to-[#1762E1] text-white py-2 px-2 rounded-xl font-semibold whitespace-nowrap space-x-1 hover:cursor-pointer duration-300">
-                    <span class="hidden md:flex"> <img src="/icons/socials/balance-testflight.svg" alt="balance" width="50" height="50" class="" /> </span>
-                    <p class="text-rg antialiased pl-1.5 pr-1 tracking-tight">Download now on<b class='flex tracking-normal justify-center font-semibold text-center text-3xl leading-6 pb-1.5'>TestFlight</b></p>
+                <div
+                    class="flex bg-gradient-to-r from-[#5ACDFF] to-[#1762E1] text-white py-2 px-2 rounded-xl font-semibold whitespace-nowrap space-x-1 hover:cursor-pointer duration-300"
+                >
+                    <span class="hidden md:flex">
+                        <img
+                            src="/icons/socials/balance-testflight.svg"
+                            alt="balance"
+                            width="50"
+                            height="50"
+                            class=""
+                        />
+                    </span>
+                    <p class="text-rg antialiased pl-1.5 pr-1 tracking-tight">
+                        Download now on<b
+                            class="flex tracking-normal justify-center font-semibold text-center text-3xl leading-6 pb-1.5"
+                            >TestFlight</b
+                        >
+                    </p>
                 </div>
             </a>
         </div>
@@ -79,50 +137,87 @@
         <div class="feature">
             <img class="feature__icon" src="/icons/features/swift.svg" />
             <h2 class="feature__title">Native to Apple platforms</h2>
-            <p class="feature__text">Balance is built with Swift, UIKit & Swift UI to make the most of incredible developer APIs Apple provides</p>
+            <p class="feature__text">
+                Balance is built with Swift, UIKit & Swift UI to make the most
+                of incredible developer APIs Apple provides
+            </p>
         </div>
         <div class="feature">
             <img class="feature__icon" src="/icons/features/puzzle.svg" />
             <h2 class="feature__title">Safari Extension Integration</h2>
-            <p class="feature__text">Our wallet is woven deeply into the Safari browser so dapp developers can finally start shipping for the mobile web</p>
+            <p class="feature__text">
+                Our wallet is woven deeply into the Safari browser so dapp
+                developers can finally start shipping for the mobile web
+            </p>
         </div>
         <div class="feature">
             <img class="feature__icon" src="/icons/features/world.svg" />
             <h2 class="feature__title">Truly Open Source Code</h2>
-            <p class="feature__text">We believe the people who use open source protocols deserve interfaces that respect the community’s values</p>
+            <p class="feature__text">
+                We believe the people who use open source protocols deserve
+                interfaces that respect the community’s values
+            </p>
         </div>
     </div>
     <div class="features__row">
         <div class="feature">
             <img class="feature__icon" src="/icons/features/community.svg" />
             <h2 class="feature__title">Community Funded</h2>
-            <p class="feature__text">We raised a totally open crowdfunding campaign in 2017 and have a new one in 2022 for everyone to be involved</p>
+            <p class="feature__text">
+                We raised a totally open crowdfunding campaign in 2017 and have
+                a new one in 2022 for everyone to be involved
+            </p>
         </div>
         <div class="feature">
             <img class="feature__icon" src="/icons/features/stack.svg" />
             <h2 class="feature__title">Focused on the EVM</h2>
-            <p class="feature__text">We are building on top of the stack that supports the Ethereum Virtual Machine so we can support many protocols</p>
+            <p class="feature__text">
+                We are building on top of the stack that supports the Ethereum
+                Virtual Machine so we can support many protocols
+            </p>
         </div>
         <div class="feature">
             <img class="feature__icon" src="/icons/features/lock.svg" />
             <h2 class="feature__title">Security Community Support</h2>
-            <p class="feature__text">Our code will be reviewed regularly by the most reputable auditors in Ethereum & open for any security researchers</p>
+            <p class="feature__text">
+                Our code will be reviewed regularly by the most reputable
+                auditors in Ethereum & open for any security researchers
+            </p>
         </div>
     </div>
 </section>
 <section class="community">
-    <a class="btn btn--twitter" href="https://twitter.com/Balance_io" rel="external noopener" target="_blank">
+    <a
+        class="btn btn--twitter"
+        href="https://twitter.com/Balance_io"
+        rel="external noopener"
+        target="_blank"
+    >
         <img src="/icons/socials/twitter.svg" /><span>Follow on Twitter</span>
     </a>
-    <a class="btn btn--discord" href="https://discord.gg/sZtdVDrVGH" rel="external noopener" target="_blank">
+    <a
+        class="btn btn--discord"
+        href="https://discord.gg/sZtdVDrVGH"
+        rel="external noopener"
+        target="_blank"
+    >
         <img src="/icons/socials/discord.svg" /><span>Join our Discord</span>
     </a>
-    <a class="btn btn--github" href="https://github.com/balance-io" rel="external noopener" target="_blank">
+    <a
+        class="btn btn--github"
+        href="https://github.com/balance-io"
+        rel="external noopener"
+        target="_blank"
+    >
         <img src="/icons/socials/github.svg" /><span>Watch on GitHub</span>
     </a>
 </section>
 
 <style>
+    :global(body.highlight) button {
+        background-color: #0084f6;
+        color: white;
+    }
     .hero {
         display: block;
         margin-bottom: 43px;

@@ -1,18 +1,25 @@
 <footer class="footer">
     <div class="footer__left">
         <img class="footer__logo mb" src="/img/logo-white.png" />
-        <p class="footer__text footer__text--highlight">Balanced Software, Inc.</p>
+        <p class="footer__text footer__text--highlight">
+            Balanced Software, Inc.
+        </p>
         <p class="footer__text mb">San Francisco, California</p>
         <h2 class="footer__title">Want to visit us?</h2>
-        <p class="footer__text mb">We love having guests from the Ethereum community in our Presidio studio</p>
+        <p class="footer__text mb">
+            We love having guests from the Ethereum community in our Presidio
+            studio
+        </p>
         <button class="btn btn--apply mb">
-           <img src="/icons/socials/pin.svg" /><span>Apply to visit us</span>
+            <img src="/icons/socials/pin.svg" /><span>Apply to visit us</span>
         </button>
     </div>
     <div class="footer__center">
         <h2 class="footer__title">Contact</h2>
         <p class="footer__text">
-            <a class="footer__link" href="mailto:hello@balance.io">hello@balance.io</a>
+            <a class="footer__link" href="mailto:hello@balance.io"
+                >hello@balance.io</a
+            >
         </p>
         <p class="footer__text">
             <a class="footer__link" href="#">Intercom Chat (SMS)</a>
@@ -51,7 +58,8 @@
         font-weight: 300;
         display: block;
         padding: 30px 24px 40px;
-        .footer__left, .footer__center {
+        .footer__left,
+        .footer__center {
             max-width: 200px;
         }
         .footer__logo {
@@ -69,10 +77,10 @@
             .footer__link {
                 color: #bfbfbf;
                 text-decoration: none;
-                transition: .1s opacity ease;
+                transition: 0.1s opacity ease;
                 will-change: opacity;
                 &:hover {
-                    opacity: .8;
+                    opacity: 0.8;
                     text-decoration: underline;
                 }
             }

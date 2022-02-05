@@ -13,10 +13,20 @@
         </a>
     </div>
     <div class="nav__right">
-        <a class="nav__link" href="https://discord.gg/sZtdVDrVGH" rel="external noopener" target="_blank">
+        <a
+            class="nav__link"
+            href="https://discord.gg/sZtdVDrVGH"
+            rel="external noopener"
+            target="_blank"
+        >
             <img src="/icons/navbar/discord.svg" /><span>Community</span>
         </a>
-        <a class="nav__link" href="https://ricburton.mirror.xyz/crowdfunds/0x9500b696F00AE82CA97d06379CF0A2b60B467040" rel="external noopener" target="_blank">
+        <a
+            class="nav__link"
+            href="https://ricburton.mirror.xyz/crowdfunds/0x9500b696F00AE82CA97d06379CF0A2b60B467040"
+            rel="external noopener"
+            target="_blank"
+        >
             <img src="/icons/navbar/store.svg" /><span>Crowdfunding</span>
         </a>
     </div>
@@ -34,13 +44,13 @@
             margin-bottom: 16px;
             max-width: 200px;
             .nav__logo {
-                transition: .15s opacity ease;
+                transition: 0.15s opacity ease;
                 will-change: opacity;
                 .nav__image {
                     max-width: 145px;
                 }
                 &:hover {
-                    opacity: .8;
+                    opacity: 0.8;
                 }
             }
         }
@@ -61,10 +71,10 @@
                 justify-content: center;
                 font-size: 20px;
                 text-decoration: none;
-                transition: .15s opacity ease;
+                transition: 0.15s opacity ease;
                 will-change: opacity;
                 &:hover {
-                    opacity: .8;
+                    opacity: 0.8;
                 }
                 img {
                     height: 22px;
