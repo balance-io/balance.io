@@ -25,7 +25,7 @@
         border: 0;
         border-radius: 8px;
         color: #1daa10;
-        column-gap: 6px;
+        column-gap: 0px;
         display: flex;
         font-size: 17px;
         font-weight: 500;
@@ -33,8 +33,8 @@
         justify-content: center;
         text-decoration: none;
         width: 90px;
-        cursor: grab;
-
+        cursor: pointer;
+        
         > img {
             height: 20px;
             width: 20px;
