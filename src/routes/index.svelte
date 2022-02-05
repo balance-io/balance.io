@@ -64,9 +64,12 @@
                 </button>
             </div>
         </div>
-        <div class="wrapper">
-            <a class="btn btn--testflight" href="https://testflight.apple.com/join/2KmYYftO" rel="external noopener" target="_blank">
-                <img src="/icons/socials/balance-testflight.svg" /><span>Join TestFlight</span>
+        <div class="flex gap-2 justify-center align-center pt-10 drop-shadow-[0_25px_25px_rgba(20,164,245,0.25)] mb-10">
+            <a href="https://testflight.apple.com/join/2KmYYftO">
+                <div class="flex bg-gradient-to-r from-[#5ACDFF] to-[#1762E1] text-white py-2 px-2 rounded-xl font-semibold whitespace-nowrap space-x-1 hover:cursor-pointer duration-300">
+                    <span class="hidden md:flex"> <img src="/icons/socials/balance-testflight.svg" alt="balance" width="50" height="50" class="" /> </span>
+                    <p class="text-rg antialiased pl-1.5 pr-1 tracking-tight">Download now on<b class='flex tracking-normal justify-center font-semibold text-center text-3xl leading-6 pb-1.5'>TestFlight</b></p>
+                </div>
             </a>
         </div>
     </div>
