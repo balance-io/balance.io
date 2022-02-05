@@ -6,7 +6,6 @@
 </script>
 
 <script>
-    import "../tailwind.css";
     import '$lib/global.scss';
     import Navbar from '$lib/components/Navbar.svelte';
     import Footer from '$lib/components/Footer.svelte';

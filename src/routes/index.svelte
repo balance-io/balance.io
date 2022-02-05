@@ -105,6 +105,7 @@
                 />
             </div>
         </div>
+<<<<<<< HEAD
         <div
             class="flex gap-2 justify-center align-center pt-10 drop-shadow-[0_25px_25px_rgba(20,164,245,0.25)] mb-10"
         >
@@ -128,6 +129,11 @@
                         >
                     </p>
                 </div>
+=======
+        <div class="wrapper">
+            <a class="btn btn--testflight" href="https://testflight.apple.com/join/2KmYYftO" rel="external noopener" target="_blank">
+                <img src="/icons/socials/balance-testflight.svg" /><span>Join TestFlight</span>
+>>>>>>> parent of 0ba2c3c (testflight button)
             </a>
         </div>
     </div>
