@@ -1,48 +1,49 @@
 <div class="padding">
-<div class="announcement">
-    <h1 class="mainheader">
-        <img class="imageheader" src="/img/Rings.svg" />
-        <br class="mobile-break" />
-        <b>Balance </b> is coming to <b>ETH Denver & Breckenridge 🏔</b>
-    </h1>
+    <div class="announcement">
+        <h1 class="mainheader">
+            <img class="imageheader" src="/img/Rings.svg" />
+            <br class="mobile-break" />
+            <b>Balance </b> is coming to <b>ETH Denver & Breckenridge 🏔</b>
+        </h1>
 
-    <div class="event">
-        <h1 class="headers">
-            <b>🌮 Taco Tuesday</b> 15th February @ Your Mom's House
-        </h1>
-        <div class="subheaders">
-            <h2>13:00 - 16:00 with 2 short panels</h2>
-            <a class="link" href="https://lu.ma/balancedenver"
-                >lu.ma/balancedenver</a
-            >
+        <div class="event">
+            <h1 class="headers">
+                <b>🌮 Taco Tuesday</b> 15th February @ Your Mom's House
+            </h1>
+            <div class="subheaders">
+                <h2>13:00 - 16:00 with 2 short panels</h2>
+                <a class="link" href="https://lu.ma/balancedenver"
+                    >lu.ma/balancedenver</a
+                >
+            </div>
         </div>
-    </div>
-    <div class="event">
-        <h1 class="headers">
-            <b>🍩 Wallet Standards, Security & Donuts</b> 17th February @ 1134 Broadway
-        </h1>
-        <div class="subheaders">
-            <h2>9:15 - 10:00 with 2 short panels</h2>
-            <a class="link" href="https://lu.ma/balance1134 "
-                >lu.ma/balance1134
-            </a>
+        <div class="event">
+            <h1 class="headers">
+                <b>🍩 Wallet Standards, Security & Donuts</b> 17th February @ 1134
+                Broadway
+            </h1>
+            <div class="subheaders">
+                <h2>9:15 - 10:00 with 2 short panels</h2>
+                <a class="link" href="https://lu.ma/balance1134 "
+                    >lu.ma/balance1134
+                </a>
+            </div>
         </div>
-    </div>
-    <div class="event">
-        <h1 class="headers">
-            <b>🏔 Balance BreckenRager</b> Tuesday 22nd February @ Snow House
-        </h1>
-        <div class="subheaders">
-            <h2>7:00 - 13:00 ETHDenver Decompression</h2>
-            <a
-                class="link"
-                href="https://lu.ma/balancebreckenrager 
+        <div class="event">
+            <h1 class="headers">
+                <b>🏔 Balance BreckenRager</b> Tuesday 22nd February @ Snow House
+            </h1>
+            <div class="subheaders">
+                <h2>7:00 - 13:00 ETHDenver Decompression</h2>
+                <a
+                    class="link"
+                    href="https://lu.ma/balancebreckenrager 
             "
-                >lu.ma/balancebreckenrager
-            </a>
+                    >lu.ma/balancebreckenrager
+                </a>
+            </div>
         </div>
     </div>
-</div>
 </div>
 
 <!-- <h2 class="headerContent">
@@ -55,8 +56,6 @@
 <style>
     .announcement {
         background-image: url("/img/Banner.png");
-        margin-right: 5%;
-        margin-left: 5%;
         padding-bottom: 2%;
         -moz-background-size: 100% 100%;
         -webkit-background-size: 100% 100%;
@@ -129,6 +128,8 @@
             background-position: left center;
             background-size: cover;
             padding-bottom: 10px;
+            margin-right: 5%;
+            margin-left: 5%;
 
             padding: 3px;
             letter-spacing: normal;
@@ -154,6 +155,8 @@
     @media (max-width: 900px) {
         .announcement {
             padding-bottom: 10px;
+            margin-right: 5%;
+            margin-left: 5%;
         }
     }
 </style>
