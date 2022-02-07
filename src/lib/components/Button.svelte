@@ -25,7 +25,7 @@
         border: 0;
         border-radius: 8px;
         color: #1daa10;
-        column-gap: 0px;
+        column-gap: 2px;
         display: flex;
         font-size: 17px;
         font-weight: 500;

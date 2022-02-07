@@ -311,7 +311,7 @@
                     align-items: center;
                     column-gap: 16px;
                     display: flex;
-                    justify-content: space-between;
+                    justify-content: center;
                     width: 100%;
                     &:first-child {
                         .hero__link > img {
