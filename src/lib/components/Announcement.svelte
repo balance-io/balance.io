@@ -1,6 +1,7 @@
 <div class="announcement">
     <h1 class="mainheader">
         <img class="imageheader" src="/img/Rings.svg" />
+        <br class="mobile-break" />
         <b>Balance </b> is coming to <b>ETH Denver & Breckenridge 🏔</b>
     </h1>
 
@@ -21,9 +22,9 @@
         </h1>
         <div class="subheaders">
             <h2>13:00 - 16:00 with 2 short panels</h2>
-            <a class="link" href="https://lu.ma/balancedenver"
-                >lu.ma/balancedenver</a
-            >
+            <a class="link" href="https://lu.ma/balance1134 "
+                >lu.ma/balance1134
+            </a>
         </div>
     </div>
     <div class="event">
@@ -32,9 +33,12 @@
         </h1>
         <div class="subheaders">
             <h2>13:00 - 16:00 with 2 short panels</h2>
-            <a class="link" href="https://lu.ma/balancedenver"
-                >lu.ma/balancedenver</a
-            >
+            <a
+                class="link"
+                href="https://lu.ma/balancebreckenrager 
+            "
+                >lu.ma/balancebreckenrager
+            </a>
         </div>
     </div>
 </div>
@@ -54,11 +58,16 @@
         background-size: 100% 100%;
         aspect-ratio: auto 1000/400;
         border-radius: 20px;
+        background-position: bottom right;
         margin-bottom: 20px;
         color: white;
 
         text-align: center;
     }
+    .mobile-break {
+        display: none;
+    }
+
     .mainheader {
         padding-top: 40px;
         font-size: xx-large;
@@ -115,6 +124,12 @@
             background-position: left center;
             background-size: cover;
             padding-bottom: 10px;
+
+            padding: 3px;
+            letter-spacing: normal;
+        }
+        .mobile-break {
+            display: inline;
         }
         .mainheader {
             padding-top: 40px;
@@ -125,7 +140,10 @@
         .imageheader {
             margin-right: 5px;
             vertical-align: middle;
-            padding-bottom: 4px;
+            padding-bottom: 20px;
+        }
+        .subheaders {
+            font-weight: 400;
         }
     }
     @media (max-width: 900px) {
