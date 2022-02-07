@@ -10,15 +10,19 @@
             We love having guests from the Ethereum community in our Presidio
             studio
         </p>
-        <a href="https://app.uniswap.org/#/swap?exactField=output&exactAmount=1&inputCurrency=ETH&outputCurrency=0xd3ba270f82CadabD0596D3D30233448621d561BB"
-           target="_blank"
-           style="text-decoration: none;">
+        <a
+            href="https://app.uniswap.org/#/swap?exactField=output&exactAmount=1&inputCurrency=ETH&outputCurrency=0xd3ba270f82CadabD0596D3D30233448621d561BB"
+            target="_blank"
+            style="text-decoration: none;"
+        >
             <button class="btn btn--apply mb">
-                <img src="/icons/socials/pin.svg" /><span>Buy 1 $BAE to visit</span>
+                <img src="/icons/socials/pin.svg" /><span
+                    >Buy 1 $BAE to visit</span
+                >
             </button>
         </a>
     </div>
-    <div class="footer__center">
+    <!-- <div class="footer__center">
         <h2 class="footer__title">Contact</h2>
         <p class="footer__text">
             <a class="footer__link" href="mailto:hello@balance.io"
@@ -33,7 +37,9 @@
         </p>
         <h2 class="footer__title">Media</h2>
         <p class="footer__text">
-            <a class="footer__link" href="#">Blog</a>
+            <a class="footer__link" href="https://ricburton.substack.com/"
+                >Blog</a
+            >
         </p>
         <p class="footer__text">
             <a class="footer__link" href="#">Brand Kit</a>
@@ -51,7 +57,7 @@
         <p class="footer__text mb">
             <a class="footer__link" href="#">Security Disclosures</a>
         </p>
-    </div>
+    </div> -->
     <div class="footer__right">
         <img class="footer__map" src="/img/balance-map.png" />
     </div>

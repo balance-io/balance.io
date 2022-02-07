@@ -2,6 +2,7 @@
     const PAGE_TITLE = `Balance`;
     const CANONICAL_URL = `https://balance.io`;
     import Button from "../../src/lib/components/Button.svelte";
+    import Announcement from "$lib/components/Announcement.svelte";
 </script>
 
 <svelte:head>
@@ -15,7 +16,7 @@
 
 <section class="hero">
     <div class="hero__left">
-        <img class="hero__image" src="/img/phone.png" />
+        <img class="hero__image" src="/img/phone3.png" />
     </div>
     <div class="hero__right">
         <h1 class="hero__title">
@@ -24,9 +25,11 @@
         </h1>
         <div class="hero__grid">
             <div class="hero__row">
-                <a href="https://snapshot.org"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://snapshot.org"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/vote.svg"
                         text="Vote"
@@ -34,9 +37,11 @@
                         id={0}
                     />
                 </a>
-                <a href="https://showtime.io"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://showtime.io"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/mint.svg"
                         text="Mint"
@@ -44,9 +49,11 @@
                         id={1}
                     />
                 </a>
-                <a href="https://chat.blockscan.com"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://chat.blockscan.com"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/chat.svg"
                         text="Chat"
@@ -56,9 +63,11 @@
                 </a>
             </div>
             <div class="hero__row">
-                <a href="https://gitcoin.co"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://gitcoin.co"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/earn.svg"
                         text="Earn"
@@ -66,9 +75,11 @@
                         id={3}
                     />
                 </a>
-                <a href="https://zora.co"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://zora.co"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/find.svg"
                         text="Find"
@@ -76,9 +87,11 @@
                         id={4}
                     />
                 </a>
-                <a href="https://mirror.xyz"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://mirror.xyz"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/fund.svg"
                         text="Fund"
@@ -88,9 +101,11 @@
                 </a>
             </div>
             <div class="hero__row">
-                <a href="https://zkga.me"
-                   target="_blank"
-                   style="text-decoration: none;">    
+                <a
+                    href="https://zkga.me"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/play.svg"
                         text="Play"
@@ -98,9 +113,11 @@
                         id={6}
                     />
                 </a>
-                <a href="https://poap.xyz"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://poap.xyz"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/post.svg"
                         text="Post"
@@ -108,9 +125,11 @@
                         id={7}
                     />
                 </a>
-                <a href="https://opensea.io"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://opensea.io"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/list.svg"
                         text="List"
@@ -120,9 +139,11 @@
                 </a>
             </div>
             <div class="hero__row">
-                <a href="https://ethmail.cc"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://ethmail.cc"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/send.svg"
                         text="Send"
@@ -130,9 +151,11 @@
                         id={9}
                     />
                 </a>
-                <a href="https://lens.dev"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://lens.dev"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/sign.svg"
                         text="Sign"
@@ -140,9 +163,11 @@
                         id={10}
                     />
                 </a>
-                <a href="https://alpha.guild.xyz"
-                   target="_blank"
-                   style="text-decoration: none;">
+                <a
+                    href="https://alpha.guild.xyz"
+                    target="_blank"
+                    style="text-decoration: none;"
+                >
                     <Button
                         image="/icons/verbs/join.svg"
                         text="Join"
@@ -166,6 +191,7 @@
         </div>
     </div>
 </section>
+<Announcement />
 <section class="features">
     <div class="features__row">
         <div class="feature">
