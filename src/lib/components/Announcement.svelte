@@ -1,3 +1,4 @@
+<div class="padding">
 <div class="announcement">
     <h1 class="mainheader">
         <img class="imageheader" src="/img/Rings.svg" />
@@ -42,6 +43,7 @@
         </div>
     </div>
 </div>
+</div>
 
 <!-- <h2 class="headerContent">
         ⚖️ Balance is coming to ETH Denver & Breckenridge 🏔 <a href="/ethdenver"
@@ -53,6 +55,9 @@
 <style>
     .announcement {
         background-image: url("/img/Banner.png");
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-bottom: 2%;
         -moz-background-size: 100% 100%;
         -webkit-background-size: 100% 100%;
         background-size: 100% 100%;
