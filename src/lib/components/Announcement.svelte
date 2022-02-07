@@ -1,6 +1,6 @@
 <div class="announcement">
     <h1 class="mainheader">
-        <img src="static/img/rings.svg" class="imageheader" />
+        <img class="imageheader" src="/img/Rings.svg" />
         <b>Balance </b> is coming to <b>ETH Denver & Breckenridge 🏔</b>
     </h1>
 
