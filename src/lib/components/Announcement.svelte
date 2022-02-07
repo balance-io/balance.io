@@ -48,7 +48,7 @@
     </h2> -->
 <style>
     .announcement {
-        background-image: url("static/img/Banner.png");
+        background-image: url("/img/Banner.png");
         -moz-background-size: 100% 100%;
         -webkit-background-size: 100% 100%;
         background-size: 100% 100%;
