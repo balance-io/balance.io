@@ -1,3 +1,7 @@
+<script>
+    import Map from "$lib/components/Map.svelte";
+</script>
+
 <footer class="footer">
     <div class="footer__left">
         <img class="footer__logo mb" src="/img/logo-white.png" />
@@ -58,8 +62,10 @@
             <a class="footer__link" href="#">Security Disclosures</a>
         </p>
     </div> -->
-    <div class="footer__right">
-        <img class="footer__map" src="/img/balance-map.png" />
+
+    <div>
+        <Map />
+        <img src="/img/logo-white.png" class="hidden" />
     </div>
 </footer>
 
@@ -95,6 +101,9 @@
                 }
             }
         }
+        .hidden {
+            visibility: hidden;
+        }
         .footer__title {
             color: #fff;
             font-size: 19px;
@@ -104,6 +113,7 @@
         .footer__map {
             max-width: 600px;
             width: 100%;
+            display: none;
         }
         .mb {
             margin-bottom: 16px;

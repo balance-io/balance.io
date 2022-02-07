@@ -21,7 +21,7 @@
             <b>🍩 Wallet Standards, Security & Donuts</b> 17th February @ 1134 Broadway
         </h1>
         <div class="subheaders">
-            <h2>13:00 - 16:00 with 2 short panels</h2>
+            <h2>9:15 - 10:00 with 2 short panels</h2>
             <a class="link" href="https://lu.ma/balance1134 "
                 >lu.ma/balance1134
             </a>
@@ -32,7 +32,7 @@
             <b>🏔 Balance BreckenRager</b> Tuesday 22nd February @ Snow House
         </h1>
         <div class="subheaders">
-            <h2>13:00 - 16:00 with 2 short panels</h2>
+            <h2>7:00 - 13:00 ETHDenver Decompression</h2>
             <a
                 class="link"
                 href="https://lu.ma/balancebreckenrager 
