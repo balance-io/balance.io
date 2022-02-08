@@ -56,7 +56,6 @@
 <style>
     .announcement {
         background-image: url("/img/Banner.png");
-        padding-bottom: 2%;
         -moz-background-size: 100% 100%;
         -webkit-background-size: 100% 100%;
         background-size: 100% 100%;
@@ -76,7 +75,6 @@
         padding-top: 40px;
         font-size: xx-large;
         font-weight: 300;
-        letter-spacing: 1px;
     }
     .imageheader {
         margin-right: 10px;
@@ -91,7 +89,7 @@
     .headers {
         font-size: 20px;
         color: #ffffff;
-        margin: 5px;
+        margin: 3px;
         font-weight: 300;
         margin-top: 10px;
         text-align: center;

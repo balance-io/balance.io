@@ -14,7 +14,7 @@ body {
     -webkit-user-select: none;
     align-items: center;
     background-image: linear-gradient(#2cb6f2, #1762E1);
-    border: 1px solid #5b92eb;
+    // border: 1px solid #5b92eb;
     border-radius: 10px;
     box-sizing: border-box;
     color: #FFFFFF;
@@ -55,7 +55,9 @@ body {
         outline: none;
     }
     &.btn--testflight {
+        // background: linear-gradient(86deg, rgba(90,205,255,1) 21%, rgba(23,98,225,1) 100%);
         font-size: 26px;
+        text-align: center;
         height: 110%;
         letter-spacing: .008em;
         width: 240px;
