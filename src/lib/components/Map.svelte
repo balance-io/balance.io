@@ -6,11 +6,12 @@
         <script src="https://cdn.apple-mapkit.com/mk/5.x.x/mapkit.js"></script>
 
         <style>
-            #map > div {
+            #map {
                 height: 250px;
                 max-width: 600px;
-                border-radius: 10px;
+                border-radius: 20px;
                 width: 100%;
+                width: 700px;
 
                 margin-right: 10px;
             }
@@ -18,7 +19,9 @@
     </head>
 
     <body>
-        <div id="map" />
+        <a href="https://duckduckgo.com/?q=senspa&va=b&t=hc&ia=web&iaxm=places">
+            <div id="map" />
+        </a>
 
         <script>
             var MarkerAnnotation = mapkit.MarkerAnnotation,
