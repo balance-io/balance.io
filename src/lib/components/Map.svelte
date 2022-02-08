@@ -7,7 +7,7 @@
 
         <style>
             #map > div {
-                height: 200px;
+                height: 250px;
                 max-width: 600px;
                 border-radius: 10px;
                 width: 100%;

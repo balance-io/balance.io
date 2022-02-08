@@ -20,8 +20,8 @@
     </div>
     <div class="hero__right">
         <h1 class="hero__title">
-            Stop <span class="bold">Trading</span> Start
-            <span class="bold">Using</span>
+            The <span class="bold">Open Source Wallet</span> for the
+            <span class="bold">Apple & Ethereum ecosystems</span>
         </h1>
         <div class="hero__grid">
             <div class="hero__row">
@@ -176,6 +176,10 @@
                     />
                 </a>
             </div>
+            <h1 class="hero__subtitle">
+                Stop <span class="bold">Trading</span> Start
+                <span class="bold">Using</span>
+            </h1>
         </div>
         <div class="wrapper">
             <a
@@ -294,13 +298,22 @@
             flex-direction: column;
             padding: 0 24px;
             .hero__title {
-                font-weight: 400;
-                font-size: 43px;
+                font-weight: 300;
+                font-size: 37px;
                 margin-top: 0;
                 text-align: center;
                 .bold {
-                    font-size: 46px;
-                    font-weight: 700;
+                    font-size: 40px;
+                    font-weight: 600;
+                }
+            }
+            .hero__subtitle {
+                font-weight: 300;
+                font-size: 28px;
+                margin-top: 0;
+                text-align: center;
+                .bold {
+                    font-weight: 500;
                 }
             }
             .hero__grid {
@@ -404,7 +417,7 @@
                 max-width: 400px !important;
             }
             .hero__title {
-                margin-top: 1em !important;
+                margin-top: 0.5em !important;
             }
         }
     }
