@@ -25,7 +25,7 @@
         border: 0;
         border-radius: 8px;
         color: #1daa10;
-        column-gap: 0px;
+        column-gap: 2px;
         display: flex;
         font-size: 17px;
         font-weight: 500;
@@ -34,10 +34,11 @@
         text-decoration: none;
         width: 90px;
         cursor: pointer;
-        
+
         > img {
-            height: 20px;
-            width: 20px;
+            height: 15px;
+            width: 15px;
+            padding-right: 5px;
         }
         &.highlight {
             color: #fff !important;
@@ -130,6 +131,11 @@
             font-size: 28px;
             height: 62px;
             width: 138px;
+            > img {
+                height: 20px;
+                width: 20px;
+                padding-right: 0px;
+            }
         }
     }
 </style>

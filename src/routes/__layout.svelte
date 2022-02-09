@@ -1,15 +1,16 @@
 <script context="module">
-    import { browser, dev } from '$app/env';
+    import { browser, dev } from "$app/env";
     export const hydrate = dev;
     export const router = browser;
     export const prerender = true;
 </script>
 
 <script>
-    import '$lib/global.scss';
-    import Navbar from '$lib/components/Navbar.svelte';
-    import Footer from '$lib/components/Footer.svelte';
-</script>
+    import "$lib/global.scss";
+    import Navbar from "$lib/components/Navbar.svelte";
+    import Footer from "$lib/components/Footer.svelte";
+`    import Announcement from "$lib/components/Announcement.svelte";
+`</script>
 
 <div class="container">
     <div class="container__child">

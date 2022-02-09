@@ -1,4 +1,13 @@
+<script>
+    import Map from "$lib/components/Map.svelte";
+</script>
+
 <footer class="footer">
+    <div class="radius">
+        <Map />
+        <img src="/img/logo-white.png" class="hidden" />
+    </div>
+
     <div class="footer__left">
         <img class="footer__logo mb" src="/img/logo-white.png" />
         <p class="footer__text footer__text--highlight">
@@ -10,54 +19,39 @@
             We love having guests from the Ethereum community in our Presidio
             studio
         </p>
-        <a href="https://app.uniswap.org/#/swap?exactField=output&exactAmount=1&inputCurrency=ETH&outputCurrency=0xd3ba270f82CadabD0596D3D30233448621d561BB"
-           target="_blank"
-           style="text-decoration: none;">
+        <a
+            href="https://app.uniswap.org/#/swap?exactField=output&exactAmount=1&inputCurrency=ETH&outputCurrency=0xd3ba270f82CadabD0596D3D30233448621d561BB"
+            target="_blank"
+            style="text-decoration: none;"
+        >
             <button class="btn btn--apply mb">
-                <img src="/icons/socials/pin.svg" /><span>Buy 1 $BAE to visit</span>
+                <img src="/icons/socials/pin.svg" /><span
+                    >Buy 1 $BAE to visit</span
+                >
             </button>
         </a>
     </div>
     <div class="footer__center">
         <h2 class="footer__title">Contact</h2>
-        <p class="footer__text">
+        <p class="footer__text" style="padding-bottom: 10px;">
             <a class="footer__link" href="mailto:hello@balance.io"
                 >hello@balance.io</a
             >
         </p>
-        <p class="footer__text">
-            <a class="footer__link" href="#">Intercom Chat (SMS)</a>
-        </p>
-        <p class="footer__text mb">
-            <a class="footer__link" href="#">Request a Call Back</a>
-        </p>
+
         <h2 class="footer__title">Media</h2>
         <p class="footer__text">
-            <a class="footer__link" href="#">Blog</a>
+            <a class="footer__link" href="https://ricburton.substack.com/"
+                >Blog</a
+            >
         </p>
-        <p class="footer__text">
-            <a class="footer__link" href="#">Brand Kit</a>
-        </p>
-        <p class="footer__text">
-            <a class="footer__link" href="#">Press Contact</a>
-        </p>
-        <p class="footer__text mb">
-            <a class="footer__link" href="#">Translation Progress</a>
-        </p>
-        <h2 class="footer__title">Operations</h2>
-        <p class="footer__text">
-            <a class="footer__link" href="#">Investor Relations</a>
-        </p>
-        <p class="footer__text mb">
-            <a class="footer__link" href="#">Security Disclosures</a>
-        </p>
-    </div>
-    <div class="footer__right">
-        <img class="footer__map" src="/img/balance-map.png" />
     </div>
 </footer>
 
 <style>
+    .radius > style {
+        border-radius: 20px !important;
+    }
     .footer {
         font-weight: 300;
         display: block;
@@ -89,6 +83,9 @@
                 }
             }
         }
+        .hidden {
+            visibility: hidden;
+        }
         .footer__title {
             color: #fff;
             font-size: 19px;
@@ -98,6 +95,7 @@
         .footer__map {
             max-width: 600px;
             width: 100%;
+            display: none;
         }
         .mb {
             margin-bottom: 16px;
@@ -107,7 +105,7 @@
         .footer {
             column-gap: 32px;
             display: flex;
-            justify-content: space-between;
+            /* justify-content: space-between; */
             padding: 60px 0 80px;
         }
     }
