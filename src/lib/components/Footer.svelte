@@ -3,6 +3,11 @@
 </script>
 
 <footer class="footer">
+    <div class="radius">
+        <Map />
+        <img src="/img/logo-white.png" class="hidden" />
+    </div>
+
     <div class="footer__left">
         <img class="footer__logo mb" src="/img/logo-white.png" />
         <p class="footer__text footer__text--highlight">
@@ -26,50 +31,27 @@
             </button>
         </a>
     </div>
-    <!-- <div class="footer__center">
+    <div class="footer__center">
         <h2 class="footer__title">Contact</h2>
-        <p class="footer__text">
+        <p class="footer__text" style="padding-bottom: 10px;">
             <a class="footer__link" href="mailto:hello@balance.io"
                 >hello@balance.io</a
             >
         </p>
-        <p class="footer__text">
-            <a class="footer__link" href="#">Intercom Chat (SMS)</a>
-        </p>
-        <p class="footer__text mb">
-            <a class="footer__link" href="#">Request a Call Back</a>
-        </p>
+
         <h2 class="footer__title">Media</h2>
         <p class="footer__text">
             <a class="footer__link" href="https://ricburton.substack.com/"
                 >Blog</a
             >
         </p>
-        <p class="footer__text">
-            <a class="footer__link" href="#">Brand Kit</a>
-        </p>
-        <p class="footer__text">
-            <a class="footer__link" href="#">Press Contact</a>
-        </p>
-        <p class="footer__text mb">
-            <a class="footer__link" href="#">Translation Progress</a>
-        </p>
-        <h2 class="footer__title">Operations</h2>
-        <p class="footer__text">
-            <a class="footer__link" href="#">Investor Relations</a>
-        </p>
-        <p class="footer__text mb">
-            <a class="footer__link" href="#">Security Disclosures</a>
-        </p>
-    </div> -->
-
-    <div>
-        <Map />
-        <img src="/img/logo-white.png" class="hidden" />
     </div>
 </footer>
 
 <style>
+    .radius > style {
+        border-radius: 20px !important;
+    }
     .footer {
         font-weight: 300;
         display: block;
@@ -123,7 +105,7 @@
         .footer {
             column-gap: 32px;
             display: flex;
-            justify-content: space-between;
+            /* justify-content: space-between; */
             padding: 60px 0 80px;
         }
     }

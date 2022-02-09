@@ -153,8 +153,7 @@
     @media (max-width: 900px) {
         .announcement {
             padding-bottom: 10px;
-            margin-right: 5%;
-            margin-left: 5%;
+            margin: 0 24px 2em;
         }
     }
 </style>

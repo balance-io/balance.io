@@ -9,18 +9,32 @@
             #map {
                 height: 250px;
                 max-width: 600px;
-                border-radius: 20px;
+                border-radius: 20px !important;
                 width: 100%;
                 width: 700px;
 
+                padding-left: 20px;
                 margin-right: 10px;
+            }
+            @media screen and (max-width: 660px) {
+                #map {
+                    height: 150px;
+                    padding-left: 0px;
+                    max-width: 600px;
+                    border-radius: 20px !important;
+                    width: 100%;
+                    width: 250px;
+                }
+            }
+            #map .syrup-canvas {
+                border-radius: 20px;
             }
         </style>
     </head>
 
     <body>
         <a href="https://duckduckgo.com/?q=senspa&va=b&t=hc&ia=web&iaxm=places">
-            <div id="map" />
+            <div style="border-radius: 20px;" id="map" />
         </a>
 
         <script>
