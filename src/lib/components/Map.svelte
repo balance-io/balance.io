@@ -19,8 +19,9 @@
             @media screen and (max-width: 660px) {
                 #map {
                     height: 150px;
-                    padding-left: 0px;
+                    padding-left: 10px;
                     max-width: 600px;
+
                     border-radius: 20px !important;
                     width: 100%;
                     width: 250px;
