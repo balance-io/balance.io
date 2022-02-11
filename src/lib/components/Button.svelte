@@ -33,7 +33,11 @@
         justify-content: center;
         text-decoration: none;
         width: 90px;
+        perspective: 2000px;
         cursor: pointer;
+        transform-origin: center -100px;
+        transform: rotateX(-15deg);
+        transition: transform 0.3s;
 
         > img {
             height: 15px;
@@ -43,14 +47,21 @@
         &.highlight {
             color: #fff !important;
             background-color: green;
+            transition: all 0.6s;
+            transform: rotateX(0);
+
             > img {
                 filter: brightness(0) invert(1);
             }
+        }
+        &:hover {
+            opacity: 0.8;
         }
         &.hero__link--orange {
             background-color: #fcebde;
             color: #ff6f00;
             &.highlight {
+                /* transition: all 0.6s; */
                 background-color: #ff6f00;
             }
         }

@@ -16,165 +16,165 @@
 
 <section class="hero">
     <div class="hero__left">
+        <!-- <img class="hero__image" src="/img/phone2.svg" /> -->
         <img class="hero__image" src="/img/phone3.png" />
     </div>
     <div class="hero__right">
         <h1 class="hero__title">
             The <span class="bold">Open Source Wallet</span> for the
+            <br class="mobile-break" />
             <span class="bold">Apple & Ethereum ecosystems</span>
         </h1>
         <div class="hero__grid">
             <div class="hero__row">
-                <a
+                <!-- <a
                     href="https://snapshot.org"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/vote.svg"
-                        text="Vote"
-                        color="green"
-                        id={0}
-                    />
-                </a>
-                <a
+                > -->
+                <Button
+                    image="/icons/verbs/vote.svg"
+                    text="Vote"
+                    color="green"
+                    id={0}
+                />
+                <!-- </a> -->
+                <!-- <a
                     href="https://showtime.io"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/mint.svg"
-                        text="Mint"
-                        color="orange"
-                        id={1}
-                    />
-                </a>
-                <a
+                > -->
+                <Button
+                    image="/icons/verbs/mint.svg"
+                    text="Mint"
+                    color="orange"
+                    id={1}
+                />
+                <!-- </a> -->
+                <!-- <a
                     href="https://chat.blockscan.com"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/chat.svg"
-                        text="Chat"
-                        color="sky"
-                        id={2}
-                    />
-                </a>
+                > -->
+                <Button
+                    image="/icons/verbs/chat.svg"
+                    text="Chat"
+                    color="sky"
+                    id={2}
+                />
+                <!-- </a> -->
             </div>
             <div class="hero__row">
-                <a
+                <!-- <a
                     href="https://gitcoin.co"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/earn.svg"
-                        text="Earn"
-                        color="yellow"
-                        id={3}
-                    />
-                </a>
-                <a
+                > -->
+                <Button
+                    image="/icons/verbs/earn.svg"
+                    text="Earn"
+                    color="yellow"
+                    id={3}
+                />
+                <!-- </a> -->
+                <!-- <a
                     href="https://zora.co"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/find.svg"
-                        text="Find"
-                        color="indigo"
-                        id={4}
-                    />
-                </a>
+                > -->
+                <Button
+                    image="/icons/verbs/find.svg"
+                    text="Find"
+                    color="indigo"
+                    id={4}
+                />
+                <!-- </a>
                 <a
-                    href="https://mirror.xyz"
-                    target="_blank"
-                    style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/fund.svg"
-                        text="Fund"
-                        color="red"
-                        id={5}
-                    />
-                </a>
+                href="https://mirror.xyz" target="_blank" style="text-decoration:
+                none;" > -->
+                <Button
+                    image="/icons/verbs/fund.svg"
+                    text="Fund"
+                    color="red"
+                    id={5}
+                />
+                <!-- </a> -->
             </div>
             <div class="hero__row">
-                <a
+                <!-- <a
                     href="https://zkga.me"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/play.svg"
-                        text="Play"
-                        color="fuchsia"
-                        id={6}
-                    />
-                </a>
-                <a
+                > -->
+                <Button
+                    image="/icons/verbs/play.svg"
+                    text="Play"
+                    color="fuchsia"
+                    id={6}
+                />
+                <!-- </a>  -->
+                <!-- <a
                     href="https://poap.xyz"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/post.svg"
-                        text="Post"
-                        color="aqua"
-                        id={7}
-                    />
-                </a>
+                > -->
+                <Button
+                    image="/icons/verbs/post.svg"
+                    text="Post"
+                    color="aqua"
+                    id={7}
+                />
+                <!-- </a>
                 <a
                     href="https://opensea.io"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/list.svg"
-                        text="List"
-                        color="purple"
-                        id={8}
-                    />
-                </a>
+                > -->
+                <Button
+                    image="/icons/verbs/list.svg"
+                    text="List"
+                    color="purple"
+                    id={8}
+                />
+                <!-- </a> -->
             </div>
             <div class="hero__row">
-                <a
+                <!-- <a
                     href="https://ethmail.cc"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/send.svg"
-                        text="Send"
-                        color="blue"
-                        id={9}
-                    />
-                </a>
+                > -->
+                <Button
+                    image="/icons/verbs/send.svg"
+                    text="Send"
+                    color="blue"
+                    id={9}
+                />
+                <!-- </a>
                 <a
                     href="https://lens.dev"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/sign.svg"
-                        text="Sign"
-                        color="gray"
-                        id={10}
-                    />
-                </a>
+                > -->
+                <Button
+                    image="/icons/verbs/sign.svg"
+                    text="Sign"
+                    color="gray"
+                    id={10}
+                />
+                <!-- </a>
                 <a
                     href="https://alpha.guild.xyz"
                     target="_blank"
                     style="text-decoration: none;"
-                >
-                    <Button
-                        image="/icons/verbs/join.svg"
-                        text="Join"
-                        color="pink"
-                        id={11}
-                    />
-                </a>
+                > -->
+                <Button
+                    image="/icons/verbs/join.svg"
+                    text="Join"
+                    color="pink"
+                    id={11}
+                />
+                <!-- </a> -->
             </div>
             <h1 class="hero__subtitle">
                 Stop <span class="bold">Trading</span> Start
@@ -281,6 +281,9 @@
     :global(body.highlight) button {
         background-color: #0084f6;
         color: white;
+    }
+    .mobile-break {
+        display: none;
     }
     .hero {
         display: block;
@@ -486,6 +489,11 @@
             flex-direction: row;
             justify-content: center;
             margin: 57px 0;
+        }
+    }
+    @media (max-width: 480px) {
+        .mobile-break {
+            display: inline;
         }
     }
 </style>
