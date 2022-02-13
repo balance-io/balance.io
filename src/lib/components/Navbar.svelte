@@ -36,10 +36,10 @@
     .nav {
         align-items: center;
         column-gap: 300px;
-        display: none;
+        display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 50px 24px;
+        padding: 50px 24px 0;
         .nav__left {
             margin-bottom: 16px;
             max-width: 200px;
@@ -85,19 +85,14 @@
     }
     @media screen and (min-width: 970px) {
         .nav {
-            display: flex;
             flex-direction: row;
+            padding: 50px 24px;
             .nav__left {
                 margin-bottom: 12px;
             }
             .nav__right {
                 flex-direction: row;
             }
-        }
-    }
-    @media screen and (min-width: 1148px) {
-        .nav {
-            padding: 50px 24px;
         }
     }
 </style>
