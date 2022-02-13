@@ -2,13 +2,15 @@
     <div class="announcement">
         <h1 class="mainheader">
             <div class="video">
-                <div style="padding:25% 0 0 0;position:relative;">
+                <div
+                    style="padding:25% 0 0 0;position:relative;margin-bottom:10px;"
+                >
                     <iframe
                         src="https://player.vimeo.com/video/676100182?h=dd77e614fb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
                         frameborder="0"
                         allow="autoplay; fullscreen; picture-in-picture"
                         allowfullscreen
-                        style="border-radius:20px;position:absolute;top:0;left:0;width:100%;height:100%;"
+                        style="border-radius:20px;position:absolute;top:0;left:0;width:100%;height:100%;margin-bottom:10px;"
                         title="BalanceBreckTrailer"
                     />
                 </div>
