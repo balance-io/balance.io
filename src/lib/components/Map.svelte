@@ -8,20 +8,21 @@
         <style>
             #map {
                 height: 250px;
-                /* max-width: 600px; */
-
+                max-width: 600px;
+                border-radius: 20px !important;
+                width: 100%;
                 width: 700px;
-                align-items: center;
-                justify-content: center;
-                /* padding-left: 20px; */
+                padding-left: 20px;
+                margin-right: 10px;
             }
-            @media screen and (max-width: 450px) {
+            @media screen and (max-width: 660px) {
                 #map {
                     height: 150px;
-                    /* padding-left: 10px; */
-                    /* max-width: 600px; */
-
-                    width: 380px;
+                    padding-left: 10px;
+                    max-width: 600px;
+                    border-radius: 20px !important;
+                    width: 100%;
+                    width: 250px;
                 }
             }
             #map .syrup-canvas {
