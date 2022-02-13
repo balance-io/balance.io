@@ -16,11 +16,13 @@
 
 <section class="hero">
     <div class="hero__left">
+        <!-- <img class="hero__image" src="/img/phone2.svg" /> -->
         <img class="hero__image" src="/img/phone3.png" />
     </div>
     <div class="hero__right">
         <h1 class="hero__title">
             The <span class="bold">Open Source Wallet</span> for the
+            <br class="mobile-break" />
             <span class="bold">Apple & Ethereum ecosystems</span>
         </h1>
         <div class="hero__grid">
@@ -90,7 +92,8 @@
                 <a
                     href="https://mirror.xyz"
                     target="_blank"
-                    style="text-decoration: none;"
+                    style="text-decoration:
+                none;"
                 >
                     <Button
                         image="/icons/verbs/fund.svg"
@@ -281,6 +284,9 @@
     :global(body.highlight) button {
         background-color: #0084f6;
         color: white;
+    }
+    .mobile-break {
+        display: none;
     }
     .hero {
         display: block;
@@ -486,6 +492,11 @@
             flex-direction: row;
             justify-content: center;
             margin: 57px 0;
+        }
+    }
+    @media (max-width: 480px) {
+        .mobile-break {
+            display: inline;
         }
     }
 </style>

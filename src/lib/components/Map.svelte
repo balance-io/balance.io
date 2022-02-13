@@ -12,7 +12,6 @@
                 border-radius: 20px !important;
                 width: 100%;
                 width: 700px;
-
                 padding-left: 20px;
                 margin-right: 10px;
             }
@@ -21,7 +20,6 @@
                     height: 150px;
                     padding-left: 10px;
                     max-width: 600px;
-
                     border-radius: 20px !important;
                     width: 100%;
                     width: 250px;

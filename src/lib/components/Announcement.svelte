@@ -1,6 +1,19 @@
 <div class="padding">
     <div class="announcement">
         <h1 class="mainheader">
+            <div class="video">
+                <div style="padding:25% 0 0 0;position:relative;">
+                    <iframe
+                        src="https://player.vimeo.com/video/676100182?h=dd77e614fb&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture"
+                        allowfullscreen
+                        style="border-radius:20px;position:absolute;top:0;left:0;width:100%;height:100%;"
+                        title="BalanceBreckTrailer"
+                    />
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
             <img class="imageheader" src="/img/Rings.svg" />
             <br class="mobile-break" />
             <b>Balance </b> is coming to <b>ETH Denver & Breckenridge 🏔</b>
@@ -63,9 +76,21 @@
         border-radius: 20px;
         background-position: bottom right;
         margin-bottom: 20px;
+        padding-bottom: 30px;
         color: white;
 
         text-align: center;
+    }
+    .video {
+        position: relative;
+        margin: 0 auto;
+        /* width: 600px; */
+        /* padding: 20px; */
+        padding-bottom: 10px;
+        border-radius: 10px;
+    }
+    #player {
+        border-radius: 10px;
     }
     .mobile-break {
         display: none;
@@ -125,7 +150,7 @@
         .announcement {
             background-position: left center;
             background-size: cover;
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             margin-right: 5%;
             margin-left: 5%;
 
@@ -152,7 +177,7 @@
     }
     @media (max-width: 900px) {
         .announcement {
-            padding-bottom: 10px;
+            padding-bottom: 20px;
             margin: 0 24px 2em;
         }
     }
