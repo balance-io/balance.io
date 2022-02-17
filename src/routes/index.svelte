@@ -179,10 +179,6 @@
                     />
                 </a>
             </div>
-            <h1 class="hero__subtitle">
-                Stop <span class="bold">Trading</span> Start
-                <span class="bold">Using</span>
-            </h1>
         </div>
         <div class="wrapper">
             <a

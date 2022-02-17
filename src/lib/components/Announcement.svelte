@@ -1,6 +1,6 @@
 <div class="padding">
     <div class="announcement">
-        <h1 class="mainheader">
+        <div class="mainheader">
             <div class="video">
                 <div
                     style="padding:25% 0 0 0;position:relative;margin-bottom:10px;"
@@ -16,40 +16,31 @@
                 </div>
                 <script src="https://player.vimeo.com/api/player.js"></script>
             </div>
-            <img class="imageheader" src="/img/Rings.svg" />
-            <br class="mobile-break" />
-            <b>Balance </b> is coming to <b>ETH Denver & Breckenridge 🏔</b>
-        </h1>
+            <h2>
+                <img class="imageheader" src="/img/Rings.svg" />
+                <br class="mobile-break" />
+                <b>Balance </b> is coming to <b>ETH Denver & Breckenridge 🏔</b>
+            </h2>
+        </div>
 
         <div class="event">
-            <h1 class="headers">
-                <b>🌮 Taco Tuesday</b> 15th February @ Your Mom's House
-            </h1>
-            <div class="subheaders">
-                <h2>13:00 - 16:00 with 2 short panels</h2>
-                <a class="link" href="https://lu.ma/balancedenver"
-                    >lu.ma/balancedenver</a
-                >
-            </div>
-        </div>
-        <div class="event">
-            <h1 class="headers">
+            <h3 class="headers">
                 <b>🍩 Wallet Standards, Security & Donuts</b> 17th February @ 1134
                 Broadway
-            </h1>
+            </h3>
             <div class="subheaders">
-                <h2>09:00 - 11:00 with 2 short panels</h2>
+                <h4>09:00 - 11:00 with 2 short panels</h4>
                 <a class="link" href="https://lu.ma/balance1134 "
                     >lu.ma/balance1134
                 </a>
             </div>
         </div>
         <div class="event">
-            <h1 class="headers">
+            <h3 class="headers">
                 <b>🏔 Balance BreckenRager</b> Tuesday 22nd February @ Snow House
-            </h1>
+            </h3>
             <div class="subheaders">
-                <h2>19:00 - 01:00 ETHDenver Decompression</h2>
+                <h4>19:00 - 01:00 ETHDenver Decompression</h4>
                 <a
                     class="link"
                     href="https://lu.ma/balancebreckenrager 

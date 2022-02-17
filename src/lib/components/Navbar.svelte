@@ -29,6 +29,18 @@
         >
             <img src="/icons/navbar/store.svg" /><span>Crowdfunding</span>
         </a>
+        <div class="wrapper mobile">
+            <a
+                class="btn btn--testflight"
+                href="https://testflight.apple.com/join/2KmYYftO"
+                rel="external noopener"
+                target="_blank"
+            >
+                <img src="/icons/socials/balance-testflight.svg" /><span
+                    >Join TestFlight</span
+                >
+            </a>
+        </div>
     </div>
 </nav>
 
@@ -83,7 +95,13 @@
             }
         }
     }
+    .mobile {
+        display: block;
+    }
     @media screen and (min-width: 970px) {
+        .mobile {
+            display: none;
+        }
         .nav {
             flex-direction: row;
             padding: 50px 24px;
