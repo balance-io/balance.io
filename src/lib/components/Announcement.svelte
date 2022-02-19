@@ -2,10 +2,10 @@
     <div class="announcement">
         <div class="mainheader">
             <h2>
-                <img class="imageheader" src="/img/Rings.svg" />
-                <br class="mobile-break" />
+                <!-- <img class="imageheader" src="/img/Rings.svg" /> -->
+                <!-- <br class="mobile-break" /> -->
                 <div class="mainheader">
-                    <b>Balance </b> is coming to
+                    <b>⚖️ Balance </b> is coming to
                     <b>ETH Denver & Breckenridge 🏔</b>
                 </div>
                 <!-- <h2 class="mainheader">
@@ -58,6 +58,7 @@
         -moz-background-size: 100% 100%;
         -webkit-background-size: 100% 100%;
         background-size: 100% 100%;
+        background-size: cover;
         aspect-ratio: auto 1000/400;
         border-radius: 20px;
         background-position: bottom right;
@@ -83,7 +84,7 @@
     }
 
     .mainheader {
-        padding-top: 40px;
+        padding-top: 5px;
         font-size: xx-large;
         font-weight: 600;
     }
@@ -150,7 +151,7 @@
         .mainheader {
             /* padding-top: 40px; */
             font-size: x-large;
-            font-weight: 300;
+            font-weight: 500;
             padding-left: 5px;
             padding-right: 5px;
             letter-spacing: 1px;
@@ -167,6 +168,7 @@
     @media (max-width: 900px) {
         .announcement {
             padding-bottom: 20px;
+            background-size: cover;
             margin: 0 24px 2em;
         }
     }

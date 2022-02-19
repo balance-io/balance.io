@@ -1,10 +1,10 @@
 <script>
-    import { onMount } from 'svelte';
+    import { onMount } from "svelte";
 
     onMount(() => {
         var MarkerAnnotation = mapkit.MarkerAnnotation,
             clickAnnotation;
-        // var sfo = new mapkit.Coordinate(37.616934, -122.383790),
+
         let work = new mapkit.Coordinate(37.80189, -122.45009);
 
         mapkit.init({
@@ -21,7 +21,6 @@
             },
         });
         var map = new mapkit.Map("map");
-
         // Setting properties on creation:
         // var sfoAnnotation = new MarkerAnnotation(sfo, { color: "#f4a56d", title: "SFO", glyphText: "✈️" });
 
@@ -38,7 +37,7 @@
     });
 </script>
 
-<a href="https://duckduckgo.com/?q=senspa&va=b&t=hc&ia=web&iaxm=places">
+<a href="http://maps.apple.com/?ll=37.80189,-122.45009&z=17.8">
     <div style="border-radius: 20px;" id="map" />
 </a>
 
@@ -68,7 +67,8 @@
         .syrup-canvas {
             border-radius: 20px !important;
         }
-        .syrup-canvas, .rt-root {
+        .syrup-canvas,
+        .rt-root {
             width: 100% !important;
         }
     }
