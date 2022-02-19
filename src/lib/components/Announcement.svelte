@@ -1,6 +1,17 @@
 <div class="padding">
     <div class="announcement">
         <div class="mainheader">
+            <h2>
+                <img class="imageheader" src="/img/Rings.svg" />
+                <br class="mobile-break" />
+                <div class="mainheader">
+                    <b>Balance </b> is coming to
+                    <b>ETH Denver & Breckenridge 🏔</b>
+                </div>
+                <!-- <h2 class="mainheader">
+                    ⚖️ Balance is coming to ETH Denver & Breckenridge 🏔
+                </h2> -->
+            </h2>
             <div class="video">
                 <div
                     style="padding:25% 0 0 0;position:relative;margin-bottom:10px;"
@@ -15,24 +26,6 @@
                     />
                 </div>
                 <script src="https://player.vimeo.com/api/player.js"></script>
-            </div>
-            <h2>
-                <img class="imageheader" src="/img/Rings.svg" />
-                <br class="mobile-break" />
-                <b>Balance </b> is coming to <b>ETH Denver & Breckenridge 🏔</b>
-            </h2>
-        </div>
-
-        <div class="event">
-            <h3 class="headers">
-                <b>🍩 Wallet Standards, Security & Donuts</b> 17th February @ 1134
-                Broadway
-            </h3>
-            <div class="subheaders">
-                <h4>09:00 - 11:00 with 2 short panels</h4>
-                <a class="link" href="https://lu.ma/balance1134 "
-                    >lu.ma/balance1134
-                </a>
             </div>
         </div>
         <div class="event">
@@ -92,12 +85,13 @@
     .mainheader {
         padding-top: 40px;
         font-size: xx-large;
-        font-weight: 300;
+        font-weight: 600;
     }
     .imageheader {
         margin-right: 10px;
         vertical-align: middle;
-        padding-bottom: 4px;
+        height: 100px;
+        width: 100px;
     }
     .event {
         padding: 1px;
@@ -132,7 +126,7 @@
     .headerContent {
         vertical-align: middle;
         font-weight: 400;
-        font-size: 19px;
+        font-size: 30px;
         padding-top: 10px;
         color: white;
         margin-top: 10px;
@@ -154,9 +148,11 @@
             display: inline;
         }
         .mainheader {
-            padding-top: 40px;
+            /* padding-top: 40px; */
             font-size: x-large;
             font-weight: 300;
+            padding-left: 5px;
+            padding-right: 5px;
             letter-spacing: 1px;
         }
         .imageheader {

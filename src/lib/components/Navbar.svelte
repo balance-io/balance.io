@@ -81,6 +81,7 @@
                 column-gap: 8px;
                 display: flex;
                 justify-content: center;
+                padding-bottom: 4px;
                 font-size: 20px;
                 text-decoration: none;
                 transition: 0.15s opacity ease;
