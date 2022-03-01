@@ -16,7 +16,7 @@
       We love having guests from the Ethereum community in our Presidio studio
     </p>
     <a
-      href="https://app.uniswap.org/#/swap?exactField=output&exactAmount=1&inputCurrency=ETH&outputCurrency=0xd3ba270f82CadabD0596D3D30233448621d561BB"
+      href="https://app.uniswap.org/#/swap?exactField=output&exactAmount=1&inputCurrency=ETH&outputCurrency=0xd3ba270f82CadabD0596D3D30233448621d561BB&chain=mainnet"
       target="_blank"
       style="text-decoration: none;"
     >
