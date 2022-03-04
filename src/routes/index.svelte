@@ -222,32 +222,6 @@
       </p>
     </div>
   </div>
-  <div class="features__row">
-    <div class="feature">
-      <img class="feature__icon" src="/icons/features/community.svg" />
-      <h2 class="feature__title">Community Funded</h2>
-      <p class="feature__text">
-        We raised a totally open crowdfunding campaign in 2017 and have a new
-        one in 2022 for everyone to be involved
-      </p>
-    </div>
-    <div class="feature">
-      <img class="feature__icon" src="/icons/features/stack.svg" />
-      <h2 class="feature__title">Focused on the EVM</h2>
-      <p class="feature__text">
-        We are building on top of the stack that supports the Ethereum Virtual
-        Machine so we can support many protocols
-      </p>
-    </div>
-    <div class="feature">
-      <img class="feature__icon" src="/icons/features/lock.svg" />
-      <h2 class="feature__title">Security Community Support</h2>
-      <p class="feature__text">
-        Our code will be reviewed regularly by the most reputable auditors in
-        Ethereum & open for any security researchers
-      </p>
-    </div>
-  </div>
 </section>
 <section class="community">
   <a
@@ -431,12 +405,13 @@
   .features {
     background-color: #fff;
     border-radius: 20px;
+    font-weight: 400;
     display: flex;
     flex-direction: column;
     margin: 0 24px;
     padding: 30px 40px;
     .features__row {
-      column-gap: 40px;
+      column-gap: 30px;
       display: flex;
       flex-direction: column;
       .feature {
@@ -447,12 +422,13 @@
         }
         .feature__title {
           color: #131415;
-          font-size: 21px;
-          margin-top: 8px;
+          font-size: 22px;
+          font-weight: 600;
+          margin-top: 6px;
         }
         .feature__text {
           color: #131415;
-          font-size: 17px;
+          font-size: 16px;
         }
       }
     }

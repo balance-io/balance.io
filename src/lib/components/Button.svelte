@@ -28,7 +28,7 @@
         column-gap: 2px;
         display: flex;
         font-size: 17px;
-        font-weight: 500;
+        font-weight: 400;
         height: 45px;
         justify-content: center;
         text-decoration: none;
