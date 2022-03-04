@@ -19,7 +19,7 @@
             rel="external noopener"
             target="_blank"
         >
-            <img src="/icons/navbar/discord.svg" /><span>Community</span>
+            <img src="/icons/navbar/discord.svg" /><span>Discord</span>
         </a>
         <a
             class="nav__link"
