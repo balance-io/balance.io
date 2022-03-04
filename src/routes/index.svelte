@@ -199,18 +199,18 @@
   <div class="features__row">
     <div class="feature">
       <img class="feature__icon" src="/icons/features/swift.svg" />
-      <h2 class="feature__title">Native to Apple platforms</h2>
+      <h2 class="feature__title">Native to Apple’s Platforms</h2>
       <p class="feature__text">
-        Balance is built with Swift, UIKit & Swift UI to make the most of
-        incredible developer APIs Apple provides
+        Balance is built with Swift &amp; UIKit to make the most of
+        incredible developer interfaces that Apple provides
       </p>
     </div>
     <div class="feature">
       <img class="feature__icon" src="/icons/features/puzzle.svg" />
-      <h2 class="feature__title">Safari Extension Integration</h2>
+      <h2 class="feature__title">iOS Safari Extension</h2>
       <p class="feature__text">
-        Our wallet is woven deeply into the Safari browser so dapp developers
-        can finally start shipping for the mobile web
+        Our wallet is woven deeply into Safari fo iPhone so dapp developers
+        can start shipping for the no. 1 mobile web browser
       </p>
     </div>
     <div class="feature">
